@@ -18,7 +18,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/students")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://fullstackfront-production.up.railway.app/")
 public class StudentController {
 
     private final StudentRepository repo;
