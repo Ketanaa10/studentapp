@@ -9,7 +9,7 @@ public class StudentAppApplication {
         SpringApplication.run(StudentAppApplication.class, args);
         System.out.println("=====================================");
         System.out.println("  Backend is RUNNING!");
-        System.out.println("  API: http://localhost:8080/students");
+        System.out.println("  API: https://fullstackfront-production.up.railway.app/students");
         System.out.println("=====================================");
     }
 }
